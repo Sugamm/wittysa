@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WSA</title>
+	 <meta name="viewport" content="width= device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="icon" href="http://www.wittyfeed.com/assets/image/favicon.ico">
+	<link rel="stylesheet" href="nav/css/style.css"> <!-- Resource style-->
+   </head>
+<body>
+
+		<!-- NAVIGATION BAR -->
+<div style="background:#e42c39;">
+		<header class="cd-main-header" style="background:#e42c39; font-color:#f31e29;">
+		<a class="logo" href="index.php"><img src="img/wsA.png" alt="Logo" style="max-height:150px; max-width:150px;"></a>
+
+		<ul class="cd-header-buttons">
+			<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
+			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+		</ul> <!-- cd-header-buttons -->
+	</header>
+	<nav class="cd-nav " style="background:#e42c39; font-color:#f31e29;">
+		<ul id="cd-primary-nav" class="cd-primary-nav ">
+			<li><a href="index.php" class="active">Home</a></li>			
+			<li><a href="#contact">Contact us</a></li>
+			<li><a href="apply.php" ><button class="btn btn-warning" >Apply Now</button></a></li>			
+	</nav> <!-- cd-nav -->
+	<div id="cd-search" class="cd-search" style="background:#e42c39; font-color:#f31e29;">
+		<form>
+			<input type="search" placeholder="Search...">
+		</form>
+	</div>
+		<script src="nav/js/jquery-2.1.1.js"></script>
+		<script src="nav/js/jquery.mobile.custom.min.js"></script>
+		<script src="nav/js/main.js"></script> <!-- Resource jQuery -->
+</div>
+<main class="cd-main-content">
+
+		   <div class="jumbotron" style="text-align:center;font-size:25px;font-weight:50">
+
+		        <h1 style="font-family:impact;">Became a member of <span style="color: #69aa6f;"> wittyfeed </span>family</h1>
+		         <p style="font-family:impact;padding:20px;line-height: 130%;">Student Ambassador</p>
+		    </div>    
+		    <div class="container">
+				<div class="row featurette" style="background:#ffffff;">
+		            <div  style="font-family: Charcoal;  font-size:20px;"><br>
+ 						<form method="post" action="#" style="padding:5px;">				           
+          				         <p style="font-family:arial;padding:15px;line-height: 130%;">Great! Apply for the program by filling out the form below.<br /> You can also access the form here –</p><hr />				           		
+          				         <!-- <iframe src="http://goo.gl/forms/Irpg9FPQER" class="col-md-8" style="height:500px;"></iframe> -->
+          				         <iframe src="https://docs.google.com/forms/d/1FiAQIdTJWwBj5ZyCkMk1VteLaFaKrYhJXgAfYgJOXOw/viewform?embedded=true" class="col-md-8" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+				           	</div>
+				  		</form>
+
+						<div class="col-md-4" style="padding:40px 0px;">
+							<p style="font-size:30px;padding-bottom:10px;">Please Select this also</p>
+							<div style="padding-top:10px; border-style: solid;border-bottom: thick groove red;border-top-width:10px;border-top: thick groove red;">
+								<div style="font-size:110%;margin:10px 5px; font-family:sans-serif;">
+									&nbsp;&nbsp; What are the basic requirements that I need to know before applying as Wittyfeed student ambassador?
+								</div><br />
+								<div style="line-height:23px;padding:20px;">
+									<form>
+										<input type="checkbox"> &nbsp; You should be a full time student and should be<span style="color:red;"> below 25 years</span>.<br />
+										<input type="checkbox">	&nbsp; Able to<span style="color:red;"> dedicate 7 hours</span> a week for Wittyfeed. <br />
+										<input type="checkbox">	&nbsp; Should be <span style="color:red;">familiar</span> with Wittyfeed, if not ping us we will be always happy to help.<br />
+										<input style="margin-top:20px;margin-left:110px"  type="submit" id="submit" name="submit" class="btn btn-primary btn-lg">
+									</form>
+								</div>
+							</div>
+						</div>
+		              		
+		           </div>
+ 				</div>
+
+		    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		  
+<hr class="featurette-divider"><br /><br />
+<div style="background-color:#333333;"> 
+		<div class="container" class="row">
+		      <div id="contact" class="col-md-6">
+
+		         <div style="color:#ffffff;">
+				        	<h1 style="font-size:40px;padding:30px;text-align:center;color:#f31e29;">Contact us</h1>
+				        	
+
+				           <form method="post" action="#">
+				           <div class="row featurette">
+				           <div class="form-group">
+				           		<div class="col-md-4 form-group">
+				           			<label for="name" style="font-size:20px;padding:5px;">Name:</label><br>
+				           			<input class="form-control" type="text" id="name" name="name" placeholder="Full name" value="">
+				           		</div>
+				           		<div class="col-md-4 form-group">
+				           			<label for="email" style="font-size:20px;padding:5px;">E-mail:</label><br>
+				           			<input class="form-control" type="email" id="email" name="email" placeholder="Email address" value="">
+				           		</div>
+				           		<div class="col-md-4 form-group">
+				           			<label  for="number" style="font-size:20px;padding:5px;">Contact No.</label><br>
+				           			<input class="form-control" type="text" maxlength="10" placeholder="Contact number" value="" min="0">
+				           		</div>
+				           	</div>
+				           	</div>
+				           	
+				           		<div class="form-group">
+									  <label for="message" style="font-size:20px;padding:5px;">Message:</label><br>
+									  <textarea class="form-control" rows="5"  id="message" name="message" placeholder="Enter your message"></textarea>
+								</div>
+								<div>
+								
+				           		<input style="float:right;"  type="submit" id="submit" name="submit" class="btn btn-success btn-lg">
+				           		<input style="float:right;margin-right:5px;" type="reset" value="Clear" class="btn btn-success btn-lg">
+
+				           		</div>
+
+				           </form>
+				        
+				        </div>	
+				        <p>___________</p>
+		       </div><br>
+			  <div class="col-md-6" style="color:#ffffff;">
+		        <h1 style="font-size:40px; padding:30px; text-align:center;color:#f31e29;">Location</h1>
+		        
+		          <address  style="line-height:20px;text-align:center;">
+		          <h3 style="margin:5px;">WITTYFEED</h3>
+		         616, Shekhar Central, A.B. Road, Palasia Square,<br />
+
+				Indore, Madhya Pradesh India - 452001<br />
+		      
+		          </address><br />
+		          <ul  style="line-height:20px;text-align:center;">
+		            <li><strong class="title">Tel:</strong>
+		              (+91) 731 - 4206247</li>
+		            <br/>
+		            <li><strong class="title">Career :</strong>
+		              <a href="#contact"> hr@vatsana.co</a></li>
+<!-- 		            <li><strong class="title">Follow Us</strong>
+		              </li>
+		              <a href="#contact"><img src="/img/fb.png"></a> -->
+		          </ul>
+		        </div>
+     
+      </div>	
+      <br><br>
+				           
+		        
+		    </div>
+
+		 
+
+
+        <!-- <footer  class="row"> -->
+       <div style="background-color:#333333; color:#ffffff; padding: 25px 0px;">
+		       <div class="container">
+			       <div class="row" >
+			       			<hr>
+			       		<div class="col-md-11 col-xs-8 " ><p>&copy; <a href="http:/www.wittyfeed.com">WITTYFEED</a>  
+			       		- <?php echo date('Y');?>  Sugam &middot;</p>
+			       		</div>
+			       		
+						<div class="col-md-1 col-xs-4"><a href="#top" class="topOfPage">
+							<span style="font-size:40px">&#128285;</span></a>
+						</div>
+			            
+			        </div>	
+		        </div>
+        </div>
+        <!-- </footer>		      		 -->
+	</main>
+
+
+</body>
+</html>
